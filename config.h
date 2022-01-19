@@ -1,6 +1,8 @@
 #pragma once
 
 #define USB_POLLING_INTERVAL_MS 1
+#define PRIMARY_COLOR 72, 89, 218
+#define SECONDARY_COLOR 175, 175, 175
 
 #ifdef RGB_MATRIX_ENABLE
     #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_REACTIVE_SIMPLE // Sets the default mode, if none has been set
